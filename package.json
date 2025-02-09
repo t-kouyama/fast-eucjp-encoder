@@ -1,0 +1,24 @@
+{
+  "name": "fast-eucjp-encoder",
+  "version": "1.0.0",
+  "description": "Fast EUC-JP encoder",
+  "main": "index.js",
+  "keywords": [
+    "eucjp",
+    "euc-jp",
+    "encoder",
+    "japanese",
+    "charset",
+    "encoding",
+    "fast"
+  ],
+  "license": "MIT",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t-kouyama/fast-eucjp-encoder.git"
+  }
+}
