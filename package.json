@@ -1,7 +1,7 @@
 {
   "name": "fast-eucjp-encoder",
-  "version": "1.1.0",
-  "description": "Fast EUC-JP(CP51932) encoder - About 2x faster than iconv-lite",
+  "version": "1.2.0",
+  "description": "Fast EUC-JP(CP51932) encoder - About 2.6x to 7x faster than iconv-lite",
   "main": "index.min.js",
   "keywords": [
     "eucjp",

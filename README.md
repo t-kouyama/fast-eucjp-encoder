@@ -1,6 +1,6 @@
 # fast-eucjp-encoder
 
-Fast EUC-JP(CP51932) encoder - About 2x faster than iconv-lite
+Fast EUC-JP(CP51932) encoder - About 2.6x to 7x faster than iconv-lite
 
 ## Installation
 
@@ -33,15 +33,15 @@ console.log(bytes); // Uint8Array(10) [72, 101, 108, 108, 111, 32, 192, 164, 179
 
 ## Benchmark
 
-Comparison with iconv-lite (operations per second)
+Comparison with iconv-lite 0.7.3 (operations per second, Japanese text, Node.js 24)
 
 | chars | fast-eucjp-encoder | iconv-lite | faster |
 |------:|-------------------:|-----------:|-------:|
-|    30 |          1,052,011 |    284,206 |  3.70x |
-|   300 |            484,369 |    249,533 |  1.94x |
-|  3000 |             53,060 |     26,388 |  2.01x |
+|    30 |          5,906,591 |    767,683 |  7.69x |
+|   300 |            564,185 |    216,349 |  2.61x |
+|  3000 |             83,207 |     26,356 |  3.16x |
 
-3.7x faster than iconv-lite for short text, and about 2x faster for longer text.
+About 2.6x to 7.7x faster than iconv-lite.
 
 ## Decoder?
 
